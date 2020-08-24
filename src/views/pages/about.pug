@@ -1,0 +1,16 @@
+extends ../common/layout
+
+block content
+  main.main
+    h1 Title
+    a(href="/index.html") index
+    .dimeny
+        +icon("code", "garanty")
+    a(href="/blog/blog.html") blog
+    hr
+    include ../includes/about/company-info
+    hr
+
+    //- и другие блоки
+block scripts
+    script(src="/assets/js/about.min.js")

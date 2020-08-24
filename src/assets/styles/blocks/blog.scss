@@ -1,0 +1,24 @@
+.some-block__list {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+  height: 50px;
+}
+
+.some-block__item {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+  font-size: 30px;
+}
+
+.iconss {
+  width: 30px;
+  display: flex;
+  align-items: center;
+}
+

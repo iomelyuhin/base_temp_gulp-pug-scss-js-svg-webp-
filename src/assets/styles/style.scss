@@ -1,0 +1,20 @@
+
+//fonts
+
+@import "utils/*.scss";
+
+//normalize
+
+@import "../../local_modules/normalize.css/normalize.css";
+
+//mixins
+
+@import "mixins/*.scss";
+
+// layout-base
+
+@import "layout/base.scss";
+
+//blocks
+
+@import "blocks/*.scss";

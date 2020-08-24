@@ -1,0 +1,25 @@
+extends ../common/layout
+
+block variables
+    -var title = "Главная"
+
+block content
+  .container
+    main.main
+      h2 Title
+      include ../includes/index/banner
+      hr
+      a(href="/about.html") about
+      a(href="/blog/blog.html") blog
+      .parag paragraph
+      ul.items
+        li.items__t
+        li.items__t
+        li.items__t
+      +imagePng("content/exmpl", "griffin", "griffin bird")
+      +imageJpg("content/exmpl1", "griffin", "griffin bird")
+      //- и другие блоки
+      a(href="https://api.whatsapp.com/send?phone=+79630003282&text=Hello") Написать в WhatsApp
+
+block scripts
+    //- script(src="/assets/js/main.min.js")

@@ -1,0 +1,21 @@
+include ../common/mixins.pug
+
+block variables
+
+doctype html
+html(lang="ru")
+  block head
+    head
+      meta(charset="utf-8")
+      title Title your site | #{title}
+      meta(content="width=device-width, initial-scale=1" name="viewport")
+      meta(content="ie=edge" http-equiv="x-ua-compatible")
+      link(rel="stylesheet" href="/assets/css/style.css")
+  body
+    .wrapper
+      .maincontent
+        h1 MAIN LAYOUT
+        block content
+        
+    script(src="/assets/js/main.min.js")
+    block scripts
