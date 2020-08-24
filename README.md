@@ -1,10 +1,10 @@
-# ActualKeylogger site
+# DEF site
 
 Перед установкой зависимостей и запуском проекта убедитесь, что у вас установлена [последняя версия Node.js & NPM](https://nodejs.org/en/download/current/), а так же [последняя версия Yarn](https://yarnpkg.com/ru/docs/install) 
 
 ##  Чтобы развернуть проект необходимо:
 ```sh
-$ git clone https://github.com/iomelyuhin/ActualKeylogger.git .
+$ git clone https://github.com/iomelyuhin/base_temp_gulp-pug-scss-js-svg-webp-.git .
 $ yarn
 ```
 или
