@@ -4,6 +4,10 @@ node_js:
 
 cache: npm
 
+env:
+  global:
+    secure: hash value
+
 script: npm run build
 
 deploy:
